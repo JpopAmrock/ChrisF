@@ -1,6 +1,6 @@
 import React from 'react'
 import deployButton from '../../assets/deploy-to-netlify.svg'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/PolarisLogo1.png'
 import github from '../../assets/github.svg'
 import styles from './AppHeader.css' // eslint-disable-line
 
@@ -12,14 +12,14 @@ const AppHeader = (props) => {
           <div className='app-left-nav'>
             <img src={logo} className='app-logo' alt='logo' />
             <div className='app-title-text'>
-              <h1 className='app-title'>Hello Chris </h1>
+              <h1 className='app-title'>Polaris Todo List </h1>
               <p className='app-intro'>
-                Using FaunaDB & Netlify functions
+                The Super Duper Polaris todolist, these are definetly getting done...
               </p>
             </div>
           </div>
         </div>
-        <div className='deploy-button-wrapper'>
+        {/* <div className='deploy-button-wrapper'>
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -35,7 +35,7 @@ const AppHeader = (props) => {
               View the source Luke
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   )
