@@ -267,7 +267,7 @@ export default class App extends Component {
       let deleteButton
       if (ref) {
         deleteButton = (
-          <button data-id={id} onClick={this.deleteTodo} >
+          <button data-id={id} onClick={this.deleteTodo} style={{visibility: hidden}}>
             delete
           </button>
         )
