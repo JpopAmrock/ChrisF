@@ -16,6 +16,7 @@
   padding: 20px;
   color: white;
   padding-left: 60px;
+  background-image: '../../assets/gradient.png';
 }
 .app-left-nav {
   display: flex;
