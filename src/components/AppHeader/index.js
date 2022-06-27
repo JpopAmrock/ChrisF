@@ -7,7 +7,7 @@ import styles from './AppHeader.css' // eslint-disable-line
 
 const AppHeader = (props) => {
   return (
-    <header className='app-header' style={{backgroundImage: 'url(${bground})'}}>
+    <header className='app-header' style={{backgroundImage: url(bground)}}>
       <div className='app-title-wrapper'>
         <div className='app-title-wrapper'>
           <div className='app-left-nav'>
