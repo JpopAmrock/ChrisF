@@ -19,7 +19,7 @@ const AppHeader = (props) => {
             </div>
           </div>
         </div>
-        {/* <div className='deploy-button-wrapper'>
+        <div className='deploy-button-wrapper'>
           <a
             target='_blank'
             rel='noopener noreferrer'
@@ -35,7 +35,7 @@ const AppHeader = (props) => {
               View the source Luke
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
   )
