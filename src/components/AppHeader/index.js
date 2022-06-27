@@ -2,11 +2,13 @@ import React from 'react'
 import deployButton from '../../assets/deploy-to-netlify.svg'
 import logo from '../../assets/PolarisLogo2.png'
 import github from '../../assets/github.svg'
+import bground from '../../assets/gradient.png'
 import styles from './AppHeader.css' // eslint-disable-line
 
 const AppHeader = (props) => {
   return (
     <header className='app-header'>
+      <img src={bground} className='app-bground' alt='bground' />
       <div className='app-title-wrapper'>
         <div className='app-title-wrapper'>
           <div className='app-left-nav'>
